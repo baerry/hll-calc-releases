@@ -75,3 +75,30 @@ Open **⚙ Options** and set **Text to Speech** to:
 - Windows 10 or Windows 11
 - Microphone *(optional — voice input only)*
 - Internet connection *(optional — voice recognition only)*
+
+---
+
+## Changelog
+
+### v1.0.6
+- Fixed voice input crashing on SpeechRecognition 3.16+
+- Fixed text-to-speech stopping after the first result
+
+### v1.0.5
+- Configurable keybindings — change any hotkey from Options → Keybindings, saved between sessions
+- Fixed modifier key detection on non-ANSI layouts (Swedish, Nordic, etc.) using hardware scan codes
+- Version number shown in the app title bar
+
+### v1.0.0
+- Initial public release
+- Real-time mils calculator for all HLL factions (American, German, British, Soviet)
+- SPA mode with optional elevation offset *(work in progress)*
+- Voice input via Google Speech Recognition
+- Text-to-speech result readout (offline, Windows SAPI) — Off / Auto / Manual modes
+- Global hotkeys: Ctrl+Shift+F / V / G / D
+- System tray icon — minimize without closing
+- Customizable text color, opacity, font size, window opacity
+- Minimal mode
+- Shot history (last 8 calculations)
+- Settings and window position saved between sessions
+- NSIS installer + portable zip
