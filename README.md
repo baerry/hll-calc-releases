@@ -80,6 +80,9 @@ Open **⚙ Options** and set **Text to Speech** to:
 
 ## Changelog
 
+### v1.0.7
+- Fixed text-to-speech only working once — switched from pyttsx3 to direct Windows SAPI via win32com
+
 ### v1.0.6
 - Fixed voice input crashing on SpeechRecognition 3.16+
 - Fixed text-to-speech stopping after the first result
